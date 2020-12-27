@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Ziobro Ty kurwo jebana2
+          Ziobro Ty kurwo jebana przestań mi rodzine prześladować
         </a>
       </header>
     </div>
