@@ -10,6 +10,7 @@ RUN npm run build
 # /app/build <--- Build output directory inside container
 # second FROM statement tells to terminate previous successive block.
 FROM nginx
+EXPOSE 80
 COPY --from=0 /app/build /usr/share/nginx/html
 
 # Default command of nginx container is starting nginx so we don't
